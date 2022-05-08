@@ -28,4 +28,9 @@ int main()
             }
         }
     }
+    printf("\nLista de numero ordenados es:");
+    for (i = 0; i < SIZE; i++)
+    {
+        printf("\n%d", ord_vector[i]);
+    }
 }
